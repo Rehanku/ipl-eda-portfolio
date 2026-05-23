@@ -1,57 +1,37 @@
-# 🏏 IPL Data Analysis & Match Insights (2008-2022)
+# IPL Data Analysis & Match Insights (2008-2022)
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
-![Pandas](https://img.shields.io/badge/Pandas-Data_Wrangling-150458.svg)
-![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-4E9A06.svg)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-black.svg)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
+**Executive Summary:** This project analyzes historical IPL data from 2008 to 2022 to uncover key trends in player performance and match outcomes. The most significant finding reveals that winning the toss has a surprisingly minimal impact on winning the match.
 
-## 📌 Project Overview
-This project presents an in-depth exploratory data analysis (EDA) of the Indian Premier League (IPL) matches from its inception in 2008 up to the 2022 season. By leveraging comprehensive match-level and ball-by-ball datasets, we uncover strategic insights, player performances, and winning trends that define the world's most popular cricket league.
+**Data Pipeline:**
+- Cleaned and standardized team names across different seasons.
+- Handled null values in match outcomes and player details appropriately.
+- Merged the delivery-level and match-level datasets for comprehensive analysis.
 
-## 🎯 Key Objectives
-- **Match Outcomes & Toss Decisions**: Analyze how winning the toss and choosing to bat or field impacts the final result.
-- **Player Performances**: Identify top run-scorers, leading wicket-takers, and consistent performers across multiple seasons.
-- **Team Dominance**: Track the success rates of various franchises and their performance in high-pressure situations.
-- **Venue Insights**: Understand the characteristics of different stadiums and their historical bias toward batting or bowling first.
+**Key Insights:**
+- The "Chris Gayle Anomaly" (Highlighting that he hit 41% more sixes than the #2 player).
+- The "Toss Illusion" (Proving mathematically that winning the toss only results in winning the match ~51.5% of the time).
+- Player value (Volume of runs vs. Man of the Match awards).
 
-## 📁 Repository Structure
-```text
-├── IPL_Ball_by_Ball_2008_2022.csv   # Ball-by-ball dataset (Not tracked in git)
-├── IPL_Matches_2008_2022.csv        # Match-level dataset (Not tracked in git)
-├── eda_ipl.ipynb                    # Main Jupyter Notebook containing the EDA
-├── screenshots/                     # Data visualization screenshots
-├── .gitignore                       # Ignored files (CSVs, Virtual Env, etc.)
-└── README.md                        # Project documentation
+**Visualizations:**
+![Insight 1](screenshots/toss_impact.png)
+![Insight 2](screenshots/strike_rate_scatter.png)
+![Insight 3](screenshots/top_wicket_takers.png)
+
+**How to Run:**
+```bash
+# Clone the repository
+git clone https://github.com/Rehanku/ipl-eda-portfolio.git
+cd ipl-eda-portfolio
+
+# Create a virtual environment
+python3 -m venv .venv
+
+# Activate the virtual environment
+source .venv/bin/activate
+
+# Install the required packages
+pip install -r requirements.txt
+
+# Run Jupyter Notebook
+jupyter notebook notebooks/01_EDA.ipynb
 ```
-
-## 🚀 Quick Start
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Rehanku/ipl-eda-portfolio.git
-   cd ipl-eda-portfolio
-   ```
-2. Create and activate a virtual environment:
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   ```
-3. Install required libraries:
-   ```bash
-   pip install pandas matplotlib seaborn ipykernel
-   ```
-4. Run the Jupyter Notebook:
-   ```bash
-   jupyter notebook eda_ipl.ipynb
-   ```
-
-## 📊 Visualizations & Insights
-*(Visualizations will be added to the `screenshots/` directory)*
-- Toss Decisions Over the Years
-- Top 10 Run Scorers (2008-2022)
-- Most Player of the Match Awards
-
-## 📬 Contact
-**Rehan**
-- [LinkedIn](https://www.linkedin.com/in/rehanku)
-- [GitHub](https://github.com/Rehanku)
