@@ -8,14 +8,14 @@
 - Merged the delivery-level and match-level datasets for comprehensive analysis.
 
 **Key Insights:**
-- The "Chris Gayle Anomaly" (Highlighting that he hit 41% more sixes than the #2 player).
-- The "Toss Illusion" (Proving mathematically that winning the toss only results in winning the match ~51.5% of the time).
-- Player value (Volume of runs vs. Man of the Match awards).
+1. **Top Performers:** A historical breakdown of the most dominant run-scorers and consistent wicket-takers across all 14 seasons.
+2. **The "Toss Illusion":** Proving mathematically that winning the pre-match toss only results in winning the match ~51.5% of the time.
+3. **The "Chris Gayle Anomaly":** Highlighting the balance between run volume and strike rate, showing Gayle hit 41% more sixes than the #2 player.
 
 **Visualizations:**
-![Insight 1](screenshots/toss_impact.png)
-![Insight 2](screenshots/strike_rate_scatter.png)
-![Insight 3](screenshots/top_wicket_takers.png)
+[![Insight 1](screenshots/top_wicket_takers.png)](screenshots/top_wicket_takers.png)
+[![Insight 2](screenshots/toss_impact.png)](screenshots/toss_impact.png)
+[![Insight 3](screenshots/strike_rate_scatter.png)](screenshots/strike_rate_scatter.png)
 
 **How to Run:**
 ```bash
