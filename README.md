@@ -44,3 +44,11 @@ jupyter notebook notebooks/01_EDA.ipynb
 * **Relational Data:** Successfully merged 225,000+ rows of granular ball-by-ball delivery data with match-level outcomes using Pandas.
 * **Data Visualization:** Built custom scatter plots and bar charts using Matplotlib and Seaborn to communicate complex anomalies.
 * **Business Storytelling:** Translated raw code outputs into actionable, real-world strategic insights for cricket franchises.
+
+---
+
+## 📬 Let's Connect
+
+**Rehan Khan**
+* **LinkedIn:** [linkedin.com/in/rehan-khan-741088377](https://www.linkedin.com/in/rehan-khan-741088377)
+* **GitHub:** [github.com/Rehanku](https://github.com/Rehanku)
