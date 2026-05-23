@@ -7,10 +7,13 @@
 - Handled null values in match outcomes and player details appropriately.
 - Merged the delivery-level and match-level datasets for comprehensive analysis.
 
-**Key Insights:**
-1. **Top Performers:** A historical breakdown of the most dominant run-scorers and consistent wicket-takers across all 14 seasons.
+**Key Insights & Strategic Implications:**
+1. **Top Performers (Runs & Wickets):** A historical breakdown of the most dominant players across all 14 seasons (e.g., Virat Kohli, Shikhar Dhawan, Lasith Malinga). 
+   * **What This Means:** Franchises should prioritize heavy retention budgets for consistent, high-volume accumulators to anchor their teams across multiple seasons.
 2. **The "Toss Illusion":** Proving mathematically that winning the pre-match toss only results in winning the match ~51.5% of the time.
+   * **What This Means:** This suggests teams should focus their analytical resources on in-match strategy and adaptability rather than relying on pre-match luck.
 3. **The "Chris Gayle Anomaly":** Highlighting the balance between run volume and strike rate, showing Gayle hit 41% more sixes than the #2 player.
+   * **What This Means:** This demonstrates that raw run totals don't fully capture a player's impact. Strike rate and boundary-hitting ability are equally, if not more, important for T20 success.
 
 **Visualizations:**
 [![Insight 1](screenshots/top_wicket_takers.png)](screenshots/top_wicket_takers.png)
@@ -35,3 +38,9 @@ pip install -r requirements.txt
 # Run Jupyter Notebook
 jupyter notebook notebooks/01_EDA.ipynb
 ```
+
+**🛠️ Skills Demonstrated**
+* **Data Wrangling:** Handled missing venue data by dynamically mapping cities to stadiums and optimizing memory by dropping redundant features.
+* **Relational Data:** Successfully merged 225,000+ rows of granular ball-by-ball delivery data with match-level outcomes using Pandas.
+* **Data Visualization:** Built custom scatter plots and bar charts using Matplotlib and Seaborn to communicate complex anomalies.
+* **Business Storytelling:** Translated raw code outputs into actionable, real-world strategic insights for cricket franchises.
